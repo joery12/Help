@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Prata&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{  
+    color:white;
+    font-family: "Prata", "Merriweather", "Didot", serif;
+    height:100vh;
+    background-color: rgb(240, 245, 150);
+    background-image:url("/images/Background\ burger\ 5.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+h1{
+    font-size:64px;
+    padding:10px;
+    margin:10px;
+    border-bottom:2px solid white;
+}
+
+
+ul.navigation{
+    list-style:none;
+}
+
+ul.navigation li{
+    display:inline;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color:black;
+    font-size:32px;
+    font-weight:bolder;
+    padding:5px;
+    margin:5px;
+    font-family:merriweather;
+    box-sizing:border-box;
+    
+}
+
+.navigation li a:active{
+    text-decoration: none;
+}
+
+.navigationli a:visited{
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    color: rgb(180, 7, 7);
+}
+
+.navigation{
+    border:5px double white;
+    border-radius:15px;
+    margin:10px;
+    padding:10px;
+}
+
+.history{
+    border:5px double white;
+    box-sizing:border-box;
+    max-width:300px;
+    padding:5px;
+    margin:10px;
+    color:whitesmoke;
+    border-radius:15px;
+    
+}
+
+.history h3{
+    font-size:18px;
+}
+
+.history a{
+    font-size:16px;
+}
+
+.bun{
+    border:5px double white;
+    box-sizing:border-box;
+    max-width:300px;
+    padding:5px;
+    margin:10px auto;
+    color:whitesmoke;
+    border-radius:15px;
+    float:center;
+    background-color:black;
+
+    
+}
+
+.bun h3{
+    font-size:18px;
+}
+
+.bun a{
+    font-size:16px;
+}
+
+.imgbun{
+    border:1px hidden;
+    height:150px;
+    float:top;
+    margin:5px;
+}
+
+.patty{
+    border:5px double white;
+    box-sizing:border-box;
+    max-width:300px;
+    padding:5px;
+    margin:10px auto;
+    color:whitesmoke;
+    border-radius:15px;
+    float:center;
+    background-color:black;
+    
+}
+
+.patty h3{
+    font-size:18px;
+}
+
+.patty a{
+    font-size:16px;
+}
+
+.imgpatty{
+    border:1px hidden;
+    height:150px;
+    float:top;
+    margin:5px;
+}
+
+.topping{
+    border:5px double white;
+    box-sizing:border-box;
+    max-width:300px;
+    padding:5px;
+    margin:10px auto;
+    color:whitesmoke;
+    border-radius:15px;
+    float:center;
+    background-color:black;
+}
+
+.topping h3{
+    font-size:18px;
+}
+
+.topping a{
+    font-size:16px;
+}
+
+.imgtopping{
+    border:1px hidden;
+    height:150px;
+    float:top;
+    margin:5px;
+}
+
+.sauzen{
+    border:5px double white;
+    box-sizing:border-box;
+    max-width:300px;
+    padding:5px;
+    margin:10px auto;
+    color:whitesmoke;
+    border-radius:15px;
+    float:center;
+    background-color:black;
+    
+}
+
+.sauzen h3{
+    font-size:18px;
+}
+
+.sauzen a{
+    font-size:16px;
+}
+
+.imgsauzen{
+    border:1px hidden;
+    height:150px;
+    float:top;
+    margin:5px;
+}
+
+ul.links{
+    list-style:none;
+}
+
+.links li a{
+    color:white;
+    font-size:24px;
+    font-weight:bolder;
+    padding:25px;
+    font-family:merriweather;   
+}
+
+.footer{
+    color:white;
+    background-color: black;
+    display:block;
+    bottom:0;
+    padding:50px;
+    margin-top:-50px;
+}
+
+.form{
+    padding:10px;
+}
+
+@media (min-width: 1024px) {
+
+    body{
+        background-color:rgba(196, 145, 245, 0.616);  
+    }
+
+    .navigation li a{
+        font-size:24px;
+    }
+
+    .history{
+        max-width:400px;
+    }
+
+    .history h3{
+        font-size:16px;
+    }
+    
+    .history a{
+        font-size:14px;
+    }
+
+    .bun{
+        max-width: 1000px;
+        float:left;
+        margin:10px;
+    }
+
+    .bun h3{
+        font-size:16px;
+    }
+    
+    .bun a{
+        font-size:14px;
+    }
+
+    .imgbun{
+        height:200px;
+        margin:10px 10px 10px 50px;
+        float:right;
+    }
+
+    .patty{
+        max-width: 1000px;
+        float:right;
+        margin:10px;
+    }
+
+    .patty h3{
+        font-size:16px;
+    }
+    
+    .patty a{
+        font-size:14px;
+    }
+
+    .imgpatty{
+        height:200px;
+        margin:10px 50px 10px 10px;
+        float:left;
+    }
+
+    .topping{
+        max-width: 1000px;
+        float:left;
+        margin:10px;
+    }
+
+    .topping h3{
+        font-size:16px;
+    }
+    
+    .topping a{
+        font-size:14px;
+    }
+
+    .imgtopping{
+        height:200px;
+        margin:10px 10px 10px 50px;
+        float:right;
+    }
+
+    .sauzen{
+        max-width: 1000px;
+        float:right;
+        margin:10px;
+    }
+
+    .sauzen h3{
+        font-size:16px;
+    }
+    
+    .sauzen a{
+        font-size:14px;
+    }
+
+    .imgsauzen{
+        height:200px;
+        margin:10px 50px 10px 10px;
+        float:left;
+    }
+
+    .links li a{
+        font-size:16px;        
+    }
+}
